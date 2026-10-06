@@ -14,8 +14,7 @@ I work across React and Next.js front ends, TypeScript and Python APIs, and the 
 
 **Latest writing** on [btrindade.com](https://btrindade.com):
 
-<!-- BLOG-POST-LIST:START -->
-- [Same DevOps, new gremlins](https://btrindade.com/writing/same-devops-new-gremlins) - 2026-06-11
+<!-- BLOG-POST-LIST:START -->- [Same DevOps, new gremlins](https://btrindade.com/writing/same-devops-new-gremlins) - 2026-06-11
 - [Telemetry: the backbone of modern observability](https://btrindade.com/writing/telemetry-backbone-modern-observability) - 2025-11-18
 <!-- BLOG-POST-LIST:END -->
 
