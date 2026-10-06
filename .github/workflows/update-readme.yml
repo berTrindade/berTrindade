@@ -19,3 +19,4 @@ jobs:
           max_post_count: 5
           template: "- [$title]($url) - $date$newline"
           date_format: "yyyy-mm-dd"
+          tag_post_pre_newline: true
