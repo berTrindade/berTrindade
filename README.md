@@ -12,6 +12,11 @@ I work across React and Next.js front ends, TypeScript and Python APIs, and the 
 - [claude-code-setup](https://github.com/berTrindade/claude-code-setup): how I work with Claude Code: commands, agents, skills and hooks
 - [greenfield-testing-example](https://github.com/berTrindade/greenfield-testing-example): unit, contract and Testcontainers tests in CI for a new service
 
-**Writing:** [btrindade.com](https://btrindade.com), on DevOps for AI systems, observability and engineering practice.
+**Latest writing** on [btrindade.com](https://btrindade.com):
+
+<!-- writing starts -->
+- [Same DevOps, new gremlins](https://btrindade.com/writing/same-devops-new-gremlins) - 2026-06-11
+- [Telemetry: the backbone of modern observability](https://btrindade.com/writing/telemetry-backbone-modern-observability) - 2025-11-18
+<!-- writing ends -->
 
 **Contact:** [LinkedIn](https://www.linkedin.com/in/bertrindade/) · [btrindadedeabreu@gmail.com](mailto:btrindadedeabreu@gmail.com)
