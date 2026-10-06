@@ -7,6 +7,7 @@ I work across React and Next.js front ends, TypeScript and Python APIs, and the 
 **Things worth a look**
 
 - [llm-engineering-patterns](https://github.com/berTrindade/llm-engineering-patterns): seven runnable LLM proofs of concept (evals and LLM judges, RAG, tool calling, human-in-the-loop, cost routing, structured outputs, context windows), each with measured results
+- [twilio-inbound-voice-agent-poc](https://github.com/berTrindade/twilio-inbound-voice-agent-poc): a phone voice agent over Twilio ConversationRelay, self-hosted end to end, with its latency and accuracy measured (22 of 24 turns fully correct at a p50 of about 1.8s)
 - [assistant-channel-poc](https://github.com/berTrindade/assistant-channel-poc): an existing product exposed to Claude or ChatGPT as tools, with contended, confirmed and idempotent writes
 - [claude-code-setup](https://github.com/berTrindade/claude-code-setup): how I work with Claude Code: commands, agents, skills and hooks
 - [greenfield-testing-example](https://github.com/berTrindade/greenfield-testing-example): unit, contract and Testcontainers tests in CI for a new service
