@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: "17 6 * * *"
   workflow_dispatch:
-  push:
-    paths:
-      - .github/scripts/update_writing.py
-      - .github/workflows/update-readme.yml
 
 permissions:
   contents: write
@@ -17,14 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          python-version: "3.13"
-      - run: python .github/scripts/update_writing.py
-      - name: Commit if the section changed
-        run: |
-          git diff --quiet README.md && exit 0
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -am "Update latest writing"
-          git push
+          feed_list: "https://btrindade.com/rss.xml"
+          max_post_count: 5
+          template: "- [$title]($url) - $date$newline"
+          date_format: "yyyy-mm-dd"
