@@ -1,6 +1,6 @@
 ### Hi, I'm Bernardo
 
-I take products from an empty repo to production, and I've been building LLM products since 2024: most recently a voice agent taking live patient calls, built with Python, Twilio and AWS Bedrock.
+I take products to production, and I've been building LLM products since 2024: most recently a voice agent taking live patient calls, built with Python, Twilio and AWS Bedrock.
 
 I work across React and Next.js front ends, TypeScript and Python APIs, and the AWS or Azure infrastructure under them, in Terraform. I like measuring things before claiming them, and writing down why a decision was made.
 
